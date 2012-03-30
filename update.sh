@@ -1,5 +1,5 @@
-#!/bin/sh
-git pull origin master
+#!/bin/bash
+git pull eddie-vim master
 git submodule init
 git submodule update
 git submodule foreach git submodule init
